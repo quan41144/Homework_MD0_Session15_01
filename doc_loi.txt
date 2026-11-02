@@ -1,0 +1,1 @@
+Đoạn log ghi nhận nhiều lỗi status=500 tại endpoint /api/datasources/proxy/ (ví dụ thời điểm 02:10:15 và 02:13:06), xác nhận Grafana đang thất bại khi làm proxy chuyển tiếp truy vấn tới Prometheus do không thể kết nối tới địa chỉ IP đã cấu hình. Ngoài ra, log cũng cảnh báo lỗi hệ thống gửi email (SMTP not configured) do các Alert Rule bị kích hoạt nhưng không thể gửi cảnh báo.
